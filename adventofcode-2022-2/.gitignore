@@ -1,0 +1,37 @@
+# Rust/Cargo
+/target/
+Cargo.lock
+Cargo.toml.orig
+
+# Generated documentation
+/target/doc/
+
+# Crates.io files
+.crates.toml
+
+# Visual Studio Code settings (if you're using VS Code)
+.vscode/
+
+# IntelliJ IDEA / CLion settings (if you're using these IDEs)
+.idea/
+
+# Mac OS X metadata files
+.DS_Store
+
+# Windows thumbnails
+Thumbs.db
+
+# Environment file (for dotenv or similar libraries)
+.env
+.env.*
+
+# Editor temporary files
+*.swp
+*~
+
+# Compiled Rust programs and binaries
+**/target/
+
+# Ignore specific executables (example: a binary named "myapp")
+
+
