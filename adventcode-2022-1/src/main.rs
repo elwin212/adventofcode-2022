@@ -1,5 +1,5 @@
 use std::fs::File;
-use std::io::{self, BufRead, BufReader, Seek, SeekFrom};
+use std::io::{ BufRead, BufReader };
 use std::collections::BinaryHeap;
 
 
@@ -77,8 +77,8 @@ fn find_top_three(file: &File) -> i32 {
         if let Some(max) = max_heap.pop() {
             res += max;
         } else {
-            // Handle the case where there are fewer than three elements in the heap
-            break;
+            println!("Error");
+            return -1;
         }
     }
 
